@@ -1,0 +1,6 @@
+@YummiGoWebApi_HostAddress = http://localhost:5003
+
+GET {{YummiGoWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
