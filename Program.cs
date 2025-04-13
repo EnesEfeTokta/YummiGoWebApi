@@ -33,7 +33,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Session yapýlandýrmasý (basitleþtirilmiþ örnek)
+// Session yapýlandýrmasý (basitleþtirilmiþ örnek) deðiþtir.
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
